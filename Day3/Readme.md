@@ -13,3 +13,4 @@ gdTest.py 會引用gd1.y 來做
 梯度向下法
 https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/03-%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF/B-%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95
 
+[!image] (https://github.com/TKTim/ai108b/blob/master/Day3/%E8%A8%BB%E8%A7%A3%202020-03-19%20123929.png)

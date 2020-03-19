@@ -6,3 +6,6 @@ NumPy是Python語言的一個擴充程式庫。支援高階大量的維度陣列
 NumPy的前身Numeric最早是由Jim Hugunin與其它協作者共同開發，
 2005年，Travis Oliphant在Numeric中結合了另一個同性質的程式庫Numarray的特色，
 並加入了其它擴充功能而開發了NumPy。NumPy為開放原始碼並且由許多協作者共同維護開發。
+
+gd1.py 為梯度下降法
+gdTest.py 會引用gd1.y 來做

@@ -11,4 +11,4 @@ https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/%E4%BA%BA
 https://zh.wikipedia.org/wiki/%E8%8C%83%E6%95%B0?fbclid=IwAR0NBsY8-1dAxAh4k7cGYdlu4YTiV4_X8V0G8anuBW2GAsoqrL6NThCuLik
 
 
-[!image] (https://github.com/TKTim/ai108b/blob/master/Day4/tttt.jpg)
+![image] (https://github.com/TKTim/ai108b/blob/master/Day4/tttt.jpg)

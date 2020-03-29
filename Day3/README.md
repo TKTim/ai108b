@@ -1,3 +1,7 @@
+我的學習筆記(網站):
+https://timleesdailyfactory.blogspot.com/2020/03/ai.html
+
+
 會使用到numpy
 https://zh.wikipedia.org/wiki/NumPy
 

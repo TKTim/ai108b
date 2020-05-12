@@ -4,22 +4,6 @@ PS F:\06 資工\06 大三下\AI\Myfile> python .\root2.py
 root of 1x^2+4x+5= [0j, (-2+0j)]
 
 
-Code
-=
-import math
-import cmath
-
-def root2(a,b,c):
-    t = b*b - 4*a*c
-    if (t < 0):
-        raise Exception('沒有實根')
-    t2 = cmath.sqrt(t)
-    return [(-b+t2)/(2*a), (-b-t2)/(2*a)]
-
-
-print("root of 3x^2+6x+0=", root2(3,6,0))
-
-
 
 程式編寫
 =

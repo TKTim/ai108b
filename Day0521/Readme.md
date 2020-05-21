@@ -9,3 +9,7 @@
 「線性算子」也是與「線性映射」有關的概念。但是不同數學書籍上對「線性算子」的定義存在區別。在泛函分析中，「線性算子」一般被當做「線性映射」的同義詞。而有的書則將「線性算子」定義為「線性映射」的自同態子類。為敘述方便，本條目在提及「線性算子」時，採用後一種定義，即將線性算子與線性映射區別開來。
 [定義網站](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84) 內有定義
 
+numpy.linalg.eig
+-
+>[定義網站](https://numpy.org/doc/stable/reference/generated/numpy.linalg.eig.html)
+

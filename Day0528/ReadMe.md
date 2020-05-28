@@ -6,6 +6,12 @@
 
 [吉布斯採樣](https://zh.wikipedia.org/zh-tw/%E5%90%89%E5%B8%83%E6%96%AF%E9%87%87%E6%A0%B7?fbclid=IwAR1fBoFx6Lin8knEO1dMpL8KZWba6HMEXrMA468RwHdvWpACGVOLoUiaHOo0)
 
+為了運行svm1.py 
+-
+>pip install scipy
+
+
+
 蒙地卡羅方法
 -
 >[參考圖片](https://zh.wikipedia.org/wiki/%E8%92%99%E5%9C%B0%E5%8D%A1%E7%BE%85%E6%96%B9%E6%B3%95?fbclid=IwAR0dBjNEhOJAOGkBTlXoAMDL0rOjhvOPjb0SiP8LtWUepCtCRZdxOkAneyk#/media/File:Pi_30K.gif)

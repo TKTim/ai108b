@@ -24,7 +24,7 @@
 2.下載NODE.JS      [NODE.JS](https://nodejs.org/en/)
 3.執行一下 CnkDynamic.js
 ```
-![image]()
+![image](https://github.com/TKTim/ai108b/blob/master/Day0604/1.png)
 
 排列組合器
 -

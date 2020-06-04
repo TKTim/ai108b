@@ -21,9 +21,10 @@
 -
 ```
 1.先 git clone https://github.com/ccccourse/se
-2.下載NODE.JS      [NODE.JS](https://nodejs.org/en/)
+2.下載NODE.JS      
 3.執行一下 CnkDynamic.js
 ```
+[NODE.JS](https://nodejs.org/en/)
 ![image](https://github.com/TKTim/ai108b/blob/master/Day0604/1.png)
 
 排列組合器

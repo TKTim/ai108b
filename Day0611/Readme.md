@@ -7,13 +7,13 @@
 
 估計無法觀測的數據 p()
 =
-[exp](https://www.cnblogs.com/chengxin1982/p/7623583.html)
 ```
-   讓{\displaystyle p\,}p\,代表矢量{\displaystyle \theta }\theta : {\displaystyle p(\mathbf {y} ,\mathbf {x} |\theta )}p({\mathbf  y},{\mathbf  x}|\theta )定義的參數的全部數據的機率密度函數（連續情況下）或者機率質量函數（離散情況下），那麼從這個函數就可以得到全部數據的最大似然值，另外，在給定的觀察到的數據條件下未知數據的條件分布可以表示為：
+   讓p,代表矢量 :定義的參數的全部數據的機率密度函數（連續情況下）或者機率質量函數（離散情況下），那麼從這個函數就可以得到全部數據的最大似然值，另外，在給定的觀察到的數據條件下未知數據的條件分布可以表示為：
 ```
 
 numpy.exp
 =
+[exp](https://www.cnblogs.com/chengxin1982/p/7623583.html)
 ```
 exp，高等數學里以自然常數e為底的指數函數
 Exp：返回e的n次方，e是一個常數為2.71828 
@@ -24,6 +24,35 @@ numpy.dot
 =
 ```
 如果處理的是一維數組，則得到的是兩數組的內積。
+```
+
+numpy.計算
+=
+```
+print '兩個數組相加：'
+print np.add(a,b)
+print '\n'
+print '兩個數組相減：'
+print np.subtract(a,b)
+print '\n'
+print '兩個數組相乘：'
+print np.multiply(a,b)
+print '\n'
+print '兩個數組相除：'
+print np.divide(a,b)
+```
+
+
+numpy.max
+=
+```
+array([[ 0,  1,  2,  3],
+       [ 4,  5,  6,  7],
+       [ 8,  9, 10, 11]])
+np.max(b, axis=0) #看結果是取出最大的一行
+array([ 8, 9, 10, 11])
+>>> np.max(b, axis=1) #看結果是取出最大的一列
+array([ 3, 7, 11])
 ```
 
 

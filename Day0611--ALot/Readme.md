@@ -91,9 +91,9 @@ def P(e, p):
 '''
 def EM():
     e = [ [5,5], [9,1], [8,2], [4,6], [7,3] ]
-    pA = [0.6, 0.4]
-    pB = [0.5, 0.5]
-    delta = 9.9999
+    pA = [0.6, 0.4] #新增加:  初始值 正:0 反:1
+    pB = [0.5, 0.5] #新增加:  初始值 正:0 反:1
+    delta = 9.9999  #新增加:  疊帶差異值 停止值
     for _ in range(1000):
         print("pA={} pB={} delta={}".format(pA, pB, delta))
         sumA=[0,0]
@@ -117,8 +117,8 @@ def EM():
         dA  = np.subtract(npA, pA)
         dB  = np.subtract(npB, pB)
         delta = np.max([dA, dB])
-        if delta < 0.001: break
-        # 更新 pA, pB 為新一版
+        if delta < 0.001: break #新增加:   是否該停止了
+        # 更新 pA, pB 為新一版 
         pA = npA
         pB = npB
 
@@ -144,7 +144,8 @@ ex: logP(e1|pA) = logP([5,5]|[0.6,0.4])
 最後 P(e1|pA) = exp(logP(e1|pA)) = 0.6^5 + 0.4^5
 ```
 也就是
-![im]()
+![im](https://github.com/TKTim/ai108b/blob/master/Day0611/2.png)
+
 
 
 

@@ -1,6 +1,31 @@
 最大期望算法（Expectation-maximization algorithm)
 =
 [最大期望算法Wiki](https://zh.wikipedia.org/zh-tw/%E6%9C%80%E5%A4%A7%E6%9C%9F%E6%9C%9B%E7%AE%97%E6%B3%95?fbclid=IwAR3suFKizlBT-W79sVtsCPi_mDdoGMVsH3IjmIWUhekFF-7o4f_SwO7-UWw)
+```
+第一步是計算期望（E），利用對隱藏變量的現有估計值，計算其最大似然估計值；第二步是最大化（M），最大化在E步上求得的最大似然值來計算參數的值。M步上找到的參數估計值被用於下一個E步計算中，這個過程不斷交替進行。
+```
+
+估計無法觀測的數據 p()
+=
+[exp](https://www.cnblogs.com/chengxin1982/p/7623583.html)
+```
+   讓{\displaystyle p\,}p\,代表矢量{\displaystyle \theta }\theta : {\displaystyle p(\mathbf {y} ,\mathbf {x} |\theta )}p({\mathbf  y},{\mathbf  x}|\theta )定義的參數的全部數據的機率密度函數（連續情況下）或者機率質量函數（離散情況下），那麼從這個函數就可以得到全部數據的最大似然值，另外，在給定的觀察到的數據條件下未知數據的條件分布可以表示為：
+```
+
+numpy.exp
+=
+```
+exp，高等數學里以自然常數e為底的指數函數
+Exp：返回e的n次方，e是一個常數為2.71828 
+Exp 函數 返回 e（自然對數的底）的冪次方。
+```
+
+numpy.dot
+=
+```
+如果處理的是一維數組，則得到的是兩數組的內積。
+```
+
 
 [老師範例](https://gitlab.com/ccckmit/ai2/-/blob/master/python/10-machineLearning/em/em.md?fbclid=IwAR1DEntZErjXGALE9eeKIuIFSWfZ1AfAomx7pjnN1RoZlZclQC0LyjsXdC4)
 
@@ -71,6 +96,26 @@ def EM():
 EM()
 
 ```
+em.py 運作結果
+-
+
+![image](https://github.com/TKTim/ai108b/blob/master/Day0611/1.png)
+
+em.py 解析
+=
+
+整個程式的主旨便是照以下ex做的。
+```
+計算 P(e|p)
+
+ex: logP(e1|pA) = logP([5,5]|[0.6,0.4]) 
+               = log(0.6^5*0.4^5) 
+               = 5 log(0.6) + 5 log(0.4)
+
+最後 P(e1|pA) = exp(logP(e1|pA)) = 0.6^5 + 0.4^5
+```
+也就是
+![im]()
 
 
 

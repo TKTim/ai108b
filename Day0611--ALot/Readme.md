@@ -128,7 +128,7 @@ EM()
 em.py 運作結果
 -
 
-![image](https://github.com/TKTim/ai108b/blob/master/Day0611/1.png)
+![image](https://github.com/TKTim/ai108b/blob/master/Day0611--ALot/1.png)
 
 em.py 解析
 =
@@ -144,7 +144,7 @@ ex: logP(e1|pA) = logP([5,5]|[0.6,0.4])
 最後 P(e1|pA) = exp(logP(e1|pA)) = 0.6^5 + 0.4^5
 ```
 也就是
-![im](https://github.com/TKTim/ai108b/blob/master/Day0611/2.png)
+![im](https://github.com/TKTim/ai108b/blob/master/Day0611--ALot/2.png)
 
 
 

@@ -1,4 +1,4 @@
-This is actually Day2.
+爬山演算法
 =
 Since we only reviewed Python on Day1, so I didn't have many things to write here.
 

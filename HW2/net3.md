@@ -101,4 +101,4 @@
 x= 0.01687031935884968 y= 0.03374063871769936
 
 
-![image]()
+![image](https://github.com/TKTim/ai108b/blob/master/HW2/2.png)

@@ -143,7 +143,9 @@ ex: logP(e1|pA) = logP([5,5]|[0.6,0.4])
 
 最後 P(e1|pA) = exp(logP(e1|pA)) = 0.6^5 + 0.4^5
 ```
+
 也就是
+
 ![im](https://github.com/TKTim/ai108b/blob/master/09%20%E6%9C%80%E5%A4%A7%E6%9C%9F%E6%9C%9B%E7%AE%97%E6%B3%95%20%E3%80%81%20%E6%AD%B8%E7%B4%8D%E4%BA%86%E8%A8%B1%E5%A4%9A%E4%B9%8B%E5%89%8D%E4%B9%9F%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84%E5%87%BD%E7%A4%BA/2.png)
 
 

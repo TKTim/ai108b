@@ -1,3 +1,4 @@
+```
 0  =>  14
 1  =>  12.9024
 2  =>  11.89085184       
@@ -99,6 +100,6 @@
 98  =>  0.004691262249621747
 99  =>  0.004323467289251402
 x= 0.01687031935884968 y= 0.03374063871769936
+```
 
-
-![image](https://github.com/TKTim/ai108b/blob/master/HW2/2.png)
+![image](https://github.com/TKTim/ai108b/blob/master/HW2%20%E7%94%A8net%20%E5%BB%BA%E6%A7%8B%20x%5E2%2By%5E2%2Bz%5E2%20%E7%9A%84%E7%B6%B2%E8%B7%AF%E4%B8%A6%E6%89%BE%E5%87%BA%E6%9C%80%E4%BD%8E%E9%BB%9E/2.png)

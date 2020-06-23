@@ -73,4 +73,4 @@ https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/%E4%BA%BA
 證明Xor無法在單神經網路下執行
 =
 
-![image](https://github.com/TKTim/ai108b/blob/master/Day3/%E8%A8%BB%E8%A7%A3%202020-03-19%20123929.png)
+![image](https://github.com/TKTim/ai108b/blob/master/02%20%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/%E8%A8%BB%E8%A7%A3%202020-03-19%20123929.png)
